@@ -34,7 +34,7 @@ crontab -e
 This project runs on a vm of a rocky 9 linux instance. The logging portion (see crontab in previous section) runs every minute.  
 
 ## Architecture
-![my image](./assets/my_image.jpg)
+![my image](./assets/cluster_diagram.jpg)
 
 ## Scripts
 
