@@ -79,8 +79,6 @@ This file contains sql queries that are commonly run. Store queries here for res
 ## Database Modeling
 
 ### `host_info`
-Column Name       | Data Type
-++++++++++++++++++++++++++++++++++++++++++++
  id               | integer                             
  hostname         | character varying            
  cpu_number       | smallint                    
@@ -101,8 +99,6 @@ Referenced by:
   
 ### `host_usage`
 
-Column Name    | Data Type
-++++++++++++++++++++++++++++++++++++++++++++
 timestamp      | timestamp without time zone 
 host_id        | integer                    
 memory_free    | integer                             
